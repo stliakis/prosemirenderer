@@ -1,6 +1,6 @@
-from marks import Mark
-from nodes import Node
-from prosemirror import ProseMirrorRenderer
+from prosemirenderer.marks import Mark
+from prosemirenderer.nodes import Node
+from prosemirenderer.prosemirror import ProseMirrorRenderer
 
 
 class ProseMirror2HTML(ProseMirrorRenderer):
